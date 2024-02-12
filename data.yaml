@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['apple', 'banana', 'durian', 'grape', 'green apple', 'green grape', 'kiwi', 'orange', 'pear', 'pine apple', 'strawberry', 'watermelon']
+
+roboflow:
+  workspace: apisit-rattanasutthi
+  project: fruit-dataset-gtzbm
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/apisit-rattanasutthi/fruit-dataset-gtzbm/2
